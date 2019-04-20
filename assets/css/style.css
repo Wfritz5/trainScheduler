@@ -1,0 +1,29 @@
+h1, h2{
+    text-align: center;
+    border: 3px solid white;;
+    margin-bottom:5px;
+    background-color: teal;
+    color: white;
+    font-size: 24px;
+}
+
+#trainTimeTable{
+    margin-bottom: 5px;
+}
+
+
+#submit{
+    width: 12%;
+    margin-left: 3px;
+    background-color: teal;
+    color: white;
+    border: 2px solid white;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+#submit:hover{
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    transform: translate(1px, 1px);
+}
+

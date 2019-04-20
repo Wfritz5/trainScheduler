@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Train Time</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.10.0/firebase.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>   
+    <script src="./assets/javascript/app.js"></script>
+
+</head>
+
+<body>
+    <div class="container">
+
+<div class="row">
+    <div class="col-md-1"></div>
+    <div class="col-md-10">
+    <h1>Train Time</h1></div>
+    <div class="col-md-1"></div>
+</div>
+    <form>
+        <div class="row" id="trainTimeTable">
+            <div class="col-md-1"></div>
+            <div class="col-md-10">
+        <input type="text" placeholder="Train Name" id="trainName">
+        <input type="text" placeholder="Destination" id="destination">
+        <input type="text" placeholder="First Train Time" id="trainTime">
+        <input type="text" placeholder="Frequency" id="frequency">
+        <input type="submit" id="submit"></input>
+        </form>
+    </div>
+        <div class="col-md-1"></div>
+
+        
+    </div>
+    <div class="row">
+            <div class="col-md-1"></div>
+            <div class="col-md-10">
+            <h2>Current Train Schedule</h2></div>
+            <div class="col-md-1"></div>
+        </div>
+
+        </div>
+</body>
+
+</html>
