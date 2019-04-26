@@ -1,23 +1,31 @@
 h1, h2{
     text-align: center;
-    border: 3px solid white;;
+    border-left: 2px solid red;
+    border-right: 2px solid red;
+    border-bottom: 2px solid red;
     margin-bottom:5px;
-    background-color: teal;
+    background-color: black;
     color: white;
     font-size: 24px;
+    width: 100%;
 }
 
 #trainTimeTable{
     margin-bottom: 5px;
 }
 
+form {
+    width: 100%;
+}
+
 
 #submit{
     width: 12%;
-    margin-left: 3px;
-    background-color: teal;
+    margin-left: 90px;
+    margin-bottom: 5px;
+    background-color:black;
     color: white;
-    border: 2px solid white;
+    border: 2px solid red;
     padding-top: 4px;
     padding-bottom: 4px;
 }
@@ -26,4 +34,36 @@ h1, h2{
     cursor: pointer;
     transform: translate(1px, 1px);
 }
+#trainName, 
+#destination,
+#trainTime,
+#frequency {
+    width: 100%;
+    background-color: white;
+    color:black;
+}
+
+#container-1{
+    
+    border: 3px solid black;
+    margin-bottom: 20px;
+}
+#container-2{
+    
+    border: 3px solid black;
+
+}
+
+.card-header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    padding-bottom: -10px;
+    border-left: 2px solid red;
+    border-right: 2px solid red;
+    border-bottom: 2px solid red;
+    border-top: -10px solid black;
+}
+
 
