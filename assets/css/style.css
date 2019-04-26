@@ -65,5 +65,19 @@ form {
     border-bottom: 2px solid red;
     border-top: -10px solid black;
 }
+body{
+    background-image: url(../images/train.jpg);
+}
+
+#container-1, #container-2 {
+    background-color: white;
+}
+
+#submit{
+    margin-bottom: 20px;
+}
+#container-2{
+    margin-top: 20px;
+}
 
 
