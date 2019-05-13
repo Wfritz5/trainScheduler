@@ -8,4 +8,4 @@ In this project, the user will input a train name, the destination, the time of 
 the frequency of the train is.. (ex 15 = 15 minutes).
 
 The application will then store all the information that was submitted to a Firebase Database, and calculate exactly how far the next train is, and will give a
-time frame on when that specific train that was inputted will show up. 
+time frame on when that specific train that was inputted will show up based off the USER's current time. 
